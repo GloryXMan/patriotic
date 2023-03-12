@@ -23,6 +23,8 @@ sed -i "${line_number}s/${numbers}/${Num}/" /usr/local/etc/xray/config.json
 if systemctl restart xray && systemctl is-active --quiet xray
 then
   echo "Xray has been restarted with port ${Num} [old port: ${numbers}]"
+  rm -f change_xray_port.sh
 else
   echo "Xray restart failed"
+  echo "Please execute 'systemctl status xray' command to check the reason of service start failure."
 fi
