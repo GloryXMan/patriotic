@@ -6,5 +6,5 @@ wget https://raw.githubusercontent.com/GloryXMan/patriotic/main/change_xray_port
 
 re_x-ui_port 运行命令：
 ```bash
-wget https://raw.githubusercontent.com/GloryXMan/patriotic/main/re_x-ui_port.sh && chmod +x change_xray_port.sh && bash re_x-ui_port.sh
+wget https://raw.githubusercontent.com/GloryXMan/patriotic/main/re_x-ui_port.sh && chmod +x re_x-ui_port.sh && bash re_x-ui_port.sh
 ```
